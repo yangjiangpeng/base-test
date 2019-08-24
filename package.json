@@ -27,7 +27,9 @@
     "build": "webpack --config webpack.prod.config.js"
   },
   "dependencies": {
+    "easy-peasy": "^3.0.2",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.1"
   }
 }
