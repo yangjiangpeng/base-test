@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './app.less'
+import {StoreProvider} from 'easy-peasy';
+import store from './store/index';
+import Router from './Router';
+
 
 ReactDOM.render((
-   <div>
-       <h2>hhhheeee</h2>
-   </div>
+    <StoreProvider store={store}>
+        <Router />
+    </StoreProvider>
 ), document.getElementById('root'));
