@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {StoreProvider} from 'easy-peasy';
 import store from './store/index';
-import Router from './Router';
+import Root from './Root';
 
 
 ReactDOM.render((
     <StoreProvider store={store}>
-        <Router />
+        <Root />
     </StoreProvider>
 ), document.getElementById('root'));
